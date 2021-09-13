@@ -3,3 +3,25 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+header{
+  height: 100px;
+  background-color: #4ea0ff;
+  background-image: url('../img/pattern.png');
+}
+
+.strip{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.strip img{
+
+  height: 50px;
+  margin-top: 40px;
+}
+
+.text{
+  margin-top: 20px;
+}
+
