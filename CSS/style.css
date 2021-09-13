@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 header{
@@ -16,12 +17,52 @@ header{
 }
 
 .strip img{
-
   height: 50px;
   margin-top: 40px;
 }
 
-.text{
-  margin-top: 20px;
+h1{
+  font-size: 50px;
 }
 
+.undertext{
+  color: #989898;
+  margin-bottom: 15px;
+}
+
+#special-color{
+  color: #43b7e9;
+}
+
+#specialsize{
+  font-size: 12px;
+}
+
+.text, .list, .table, footer{
+  margin-top: 30px;
+}
+
+p > span{
+  background-color: yellow;
+}
+
+.list{
+  padding-left: 20px;
+}
+
+table{
+  border-spacing: 0;
+  text-align: left;
+}
+
+table th{
+  background-color:dodgerblue;
+  color: white;
+}
+
+.width-td{
+  width: 25%;
+}
+.color-tr{
+  background-color: rgba(177, 229, 242, .5);
+}
