@@ -77,3 +77,21 @@ table th{
 footer > span{
   color: #989898;
 }
+
+footer .image{
+  width: 250px;
+  height: 200px;
+  margin-bottom: 10px;
+  padding: 10px;
+  color: white;
+  background-size: cover;
+  background-color: red;
+}
+
+#image-monitor{
+  background-image: url(../img/monitor.jpg);
+}
+
+#image-graph{
+  background-image: url(../img/graph.jpg);
+}
